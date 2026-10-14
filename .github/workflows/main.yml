@@ -1,0 +1,19 @@
+name: shiva
+
+ on:
+ push:
+ branches: [ main ]
+
+ job:
+   demo:
+     runs-on: ubuntu-latest
+
+ steps:
+ -name: Greeting
+ run: echo "hello world"
+ 
+
+
+
+
+ 
