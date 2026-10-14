@@ -1,8 +1,9 @@
-name: cicd 
+name: cicd
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   demo:
@@ -10,12 +11,4 @@ jobs:
 
     steps:
       - name: Greetings
-        run: echo "hello from master 
-
-     
- 
-
-
- 
-
- 
+        run: echo "hello from master"
