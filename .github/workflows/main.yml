@@ -1,17 +1,16 @@
-    name: cicd
+name: cicd 
 
-    on:
-      push:
-        branches: [ main ]
+on:
+  push:
+    branches: [ main ]
 
-   job:
-     demo:
-       runs-on: ubuntu-latest
+jobs:
+  demo:
+    runs-on: ubuntu-latest
 
-
-       steps:
-       -name: Greetings
-       run: echo "hello from master"
+    steps:
+      - name: Greetings
+        run: echo "hello from master
 
      
  
